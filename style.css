@@ -2,6 +2,8 @@ html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
+  /*font-family: 'Star Jedi', arial;*/
+  font-family: 'Merriweather', serif;
 }
 
 #stars {
@@ -62,15 +64,15 @@ h1 {
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
+  font-weight: bold;
 }
 h1 {
-  background: -webkit-linear-gradient(white, #38495a);
+  background: -webkit-linear-gradient(yellow,black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
