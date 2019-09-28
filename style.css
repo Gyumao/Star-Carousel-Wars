@@ -3,6 +3,45 @@ html {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
   font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.son
+{
+  text-align:center;
+}
+
+h1 {
+  color: rgb(230, 190, 0);
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 2rem;
+  font-weight: bold;
+  text-shadow: 5px 5px 3px black, 0 0 1em red, 0 0 1em red;  
+}
+
+ul li
+{
+    display: none;
+}
+
+.photoSlide
+{
+  border: 5px outset rgb(230, 190, 0);
+  width: 50%;
+  height: 50%;
+}
+
+.Slide
+{
+  text-align:center;
+}
+
+.active
+{
+    display: block;
 }
 
 #stars {
@@ -56,22 +95,6 @@ html {
   box-shadow: 1322px 1797px #FFF , 160px 1184px #FFF , 372px 776px #FFF , 269px 25px #FFF , 1399px 1553px #FFF , 1963px 54px #FFF , 627px 765px #FFF , 1247px 1574px #FFF , 1332px 104px #FFF , 1541px 46px #FFF , 248px 831px #FFF , 2px 614px #FFF , 179px 1566px #FFF , 1349px 716px #FFF , 1287px 1456px #FFF , 1447px 1363px #FFF , 926px 174px #FFF , 993px 797px #FFF , 518px 251px #FFF , 568px 1142px #FFF , 634px 205px #FFF , 493px 452px #FFF , 317px 960px #FFF , 1434px 1082px #FFF , 34px 1583px #FFF , 1772px 345px #FFF , 134px 1468px #FFF , 1259px 1492px #FFF , 1636px 1007px #FFF , 563px 1411px #FFF , 1292px 43px #FFF , 1606px 975px #FFF , 1541px 210px #FFF , 600px 203px #FFF , 828px 614px #FFF , 1086px 461px #FFF , 230px 1913px #FFF , 789px 130px #FFF , 1430px 1579px #FFF , 1900px 897px #FFF , 1705px 1061px #FFF , 1366px 348px #FFF , 1202px 939px #FFF , 1586px 1379px #FFF , 1677px 1813px #FFF , 1235px 1387px #FFF , 215px 72px #FFF , 673px 1763px #FFF , 1912px 1327px #FFF , 1265px 1954px #FFF , 582px 192px #FFF , 1550px 285px #FFF , 361px 164px #FFF , 295px 264px #FFF , 566px 1252px #FFF , 1430px 241px #FFF , 506px 1691px #FFF , 1183px 1925px #FFF , 655px 1457px #FFF , 1332px 396px #FFF , 1873px 407px #FFF , 1489px 9px #FFF , 281px 1157px #FFF , 941px 164px #FFF , 1822px 1246px #FFF , 280px 499px #FFF , 96px 1256px #FFF , 1327px 749px #FFF , 1153px 1904px #FFF , 491px 1422px #FFF , 1370px 943px #FFF , 773px 740px #FFF , 235px 451px #FFF , 1922px 1227px #FFF , 41px 1593px #FFF , 1553px 1012px #FFF , 691px 1021px #FFF , 1810px 87px #FFF , 268px 270px #FFF , 1522px 536px #FFF , 1293px 818px #FFF , 382px 1655px #FFF , 1957px 1329px #FFF , 1733px 533px #FFF , 1110px 1649px #FFF , 53px 1349px #FFF , 1622px 965px #FFF , 1967px 485px #FFF , 1563px 1620px #FFF , 800px 701px #FFF , 719px 1065px #FFF , 263px 811px #FFF , 390px 1166px #FFF , 811px 1000px #FFF , 1170px 992px #FFF , 1311px 1579px #FFF , 1228px 1485px #FFF , 401px 1400px #FFF , 180px 1225px #FFF , 97px 21px #FFF;
 }
 
-h1 {
-  color: #FFF;
-  text-align: center;
-  font-weight: 300;
-  font-size: 4rem;
-  letter-spacing: 1rem;
-  font-weight: bold;
-  /*text-shadow: 1px 1px 2px gold, 0 0 1em blue, 0 0 0.2em blue;*/
-  
-}
-h1 {
-  background: -webkit-linear-gradient(yellow,black);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @keyframes animStar {
   from {
     transform: translateY(0px);
@@ -79,18 +102,6 @@ h1 {
   to {
     transform: translateY(-2000px);
   }
-}
-
-.photoSlide
-{
-  border: 5px outset rgb(230, 190, 0);
-  width: 50%;
-  height: 50%;
-}
-
-.Slide
-{
-  text-align:center;
 }
 
 .contact-footer
@@ -107,9 +118,4 @@ h1 {
   text-align: center;
   margin: 2rem 0;  
   height: 100%; 
-}
-
-.son
-{
-  text-align:center;
 }
