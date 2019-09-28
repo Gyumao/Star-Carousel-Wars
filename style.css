@@ -1,8 +1,14 @@
+@font-face
+{
+	font-family: 'cac_champagne';
+	src:url('star-jedi_[allfont.net].ttf');
+}
+
 html {
   height: 200%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;*/
   margin: 0;
   padding: 0;
   font-size: 10px;
@@ -10,7 +16,9 @@ html {
 
 .son
 {
-  text-align:center;
+  /*text-align:center;*/
+  float: right;
+  width: 25rem;
 }
 
 h1 {
@@ -19,7 +27,8 @@ h1 {
   font-size: 6rem;
   letter-spacing: 2rem;
   font-weight: bold;
-  text-shadow: 5px 5px 3px black, 0 0 1em red, 0 0 1em red;  
+  text-shadow: 5px 5px 3px black, 0 0 1em red, 0 0 1em red;
+  margin-left: 17%;  
 }
 
 ul li
@@ -31,7 +40,6 @@ ul li
 {
   border: 5px outset rgb(230, 190, 0);
   width: 50%;
-  height: 50%;
 }
 
 .Slide
@@ -42,6 +50,26 @@ ul li
 .active
 {
     display: block;
+}
+
+.center
+{
+  text-align:center;
+}
+
+button
+{
+  width: 20rem;
+  font-weight: bold;
+  height: 3rem;
+  background-color: rgb(230, 190, 0);
+  border: 3px solid black;
+  border-radius: 15rem;
+}
+
+.btn-previous
+{
+  margin-right: 5rem;
 }
 
 #stars {
@@ -107,7 +135,7 @@ ul li
 .contact-footer
 {
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 4%;
 }
 
 .p-footer
@@ -116,6 +144,5 @@ ul li
   text-shadow: 1px 1px 2px black;
   font-size: 1.5rem;
   text-align: center;
-  margin: 2rem 0;  
-  height: 100%; 
+  margin-top: 2rem;  
 }
