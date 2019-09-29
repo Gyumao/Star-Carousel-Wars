@@ -20,18 +20,14 @@ function nextPictures() {
 }
 
 function previousPictures(){
-    sildePrevious--;
-    if (sildePrevious < 0) {
-        sildePrevious = li.length - 1;
+    li[slideNext].classList.remove("active")
+    if (slideNext > 0) {
+        slideNext--;
+    }else{
+        slideNext = li.length - 1;
     }
-
-    for (let i = li.length - 1; i >= 0; i--) {
-        li[i].classList.remove("active");
-    }
-
-    li[sildePrevious].classList.add("active");
-}
-
+    li[slideNext].classList.add("active");    
+   }
 
 next.addEventListener("click", nextPictures);
 previous.addEventListener("click", previousPictures);
