@@ -1,23 +1,28 @@
 @font-face
 {
-	font-family: 'cac_champagne';
-	src:url('star-jedi_[allfont.net].ttf');
+	font-family: 'Distant-Galaxy';
+	src:url('/Distant-Galaxy/DISTGRG_.ttf');
 }
 
 html {
   height: 200%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
-  /*font-family: 'Merriweather', serif;*/
+  font-family: 'Distant Galaxy', Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   font-size: 10px;
 }
 
-.son
+.sonRight
 {
-  /*text-align:center;*/
   float: right;
+  width: 25rem;
+}
+
+.sonLeft
+{
+  float: left;
   width: 25rem;
 }
 
@@ -25,9 +30,9 @@ h1 {
   color: rgb(230, 190, 0);
   text-align: center;
   font-size: 6rem;
-  letter-spacing: 2rem;
+  letter-spacing: 1.5rem;
   font-weight: bold;
-  text-shadow: 5px 5px 3px black, 0 0 1em red, 0 0 1em red;
+  text-shadow: 7px 7px 5px black, 0 0 1em red, 0 0 1em red;
   margin-left: 17%;  
 }
 
@@ -40,6 +45,7 @@ ul li
 {
   border: 5px outset rgb(230, 190, 0);
   width: 50%;
+  border-radius: 5rem;
 }
 
 .Slide
@@ -65,6 +71,7 @@ button
   background-color: rgb(230, 190, 0);
   border: 3px solid black;
   border-radius: 15rem;
+  font-size: 2rem;
 }
 
 .btn-previous
@@ -142,7 +149,7 @@ button
 {
  color: rgb(230, 190, 0); 
   text-shadow: 1px 1px 2px black;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
   margin-top: 2rem;  
 }
