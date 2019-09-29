@@ -5,6 +5,7 @@ const next = document.querySelector(".btn-next");
 const li = document.querySelectorAll("li");
 let slideNext = 0;
 let sildePrevious = li.length;
+let delay = setTimeout(nextPictures, 4000);
 
 function nextPictures() {
     slideNext++;
@@ -17,6 +18,8 @@ function nextPictures() {
     }
 
     li[slideNext].classList.add("active");
+    setTimeout(nextPictures, 4000);
+    
 }
 
 function previousPictures(){
@@ -26,7 +29,7 @@ function previousPictures(){
     }else{
         slideNext = li.length - 1;
     }
-    li[slideNext].classList.add("active");    
+    li[slideNext].classList.add("active");  
    }
 
 next.addEventListener("click", nextPictures);
